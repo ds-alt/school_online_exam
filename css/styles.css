@@ -1,0 +1,301 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+h2 {
+    color: #333;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: #156ece;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* index page styles */
+
+.exam-container {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.exam-h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+
+}
+
+.exam-p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+.exam-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+
+}
+
+.exam-footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px 0;
+  color: #666;
+}
+
+.exam-footer p {
+    font-size: 14px;
+    color: #999;
+}
+
+.btn-exam {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.exam-logo {
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;    
+    width: 95px;
+    height: 60px;
+    margin-right: 70px;
+}
+
+/* Admin panel styles */
+
+
+.admin-header {
+    color: #333;
+    text-align: center;
+}
+
+.admin-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.admin-navbar a {
+
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 45px;
+    display: inline-block;
+}
+
+.admin-navbar a:hover {
+    background-color: #555;
+}
+
+.admin-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.admin-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.admin-dropdown-content a {
+    color: #fff;
+    margin-left: 30px;
+    padding: 10px;
+    display: block;
+}
+
+.admin-dropdown:hover .admin-dropdown-content {
+    display: block;
+}
+
+.admin-section-title {
+    margin-left: 30px !important;
+    color: #333;
+}
+
+.admin-dashboard {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.admin-dashboard-item {
+    flex: 1 0 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.admin-subtitle {
+    color: #555;
+    margin-top: 0;
+}
+
+.admin-exam-list {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-exam-list li {
+    margin-bottom: 10px;
+}
+
+.admin-button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-container h2 {
+    color: #333;
+}
+
+.form-container h3 {
+    margin-top: 20px;
+    color: #555;
+}
+
+.form-container form {
+    margin-top: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container select,
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0258b4;
+}
